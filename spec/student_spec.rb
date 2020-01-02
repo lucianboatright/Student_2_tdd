@@ -10,4 +10,5 @@ describe Student do
     it "store 2nd arrgument passed as :cohort key" do
       expect(new_student.student[:cohort]).to eq(:November)
     end
+    
 end
