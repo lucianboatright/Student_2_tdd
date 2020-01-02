@@ -9,6 +9,13 @@ describe Print do
       expect { subject.header }.to output(msg).to_stdout
     end
   end
+
+  describe 'footer' do
+    it 'prints Footer with total num of students' do
+      msg = "We have total of #{students.count} students"
+      expect { subject.footer }.to output(msg).to_stdout
+    end
+  end
 end
 
 
