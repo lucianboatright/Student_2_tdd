@@ -6,4 +6,5 @@ class Student
     @student = { name: name, :cohort => cohort.to_sym }
   end
 
+
 end
